@@ -2,6 +2,8 @@
 
 This command-line tool fetches details about a [MetaPress](https://metapress.dev) enabled website, and allows testing portals for CORS issues.
 
+This tool requires Node v18 and higher.
+
 ## Usage
 
 ```bash

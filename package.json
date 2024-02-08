@@ -1,0 +1,31 @@
+{
+  "name": "@metapress/cli",
+  "version": "1.0.0",
+  "description": "Command-line tool to test MetaPress-enabled sites.",
+  "main": "src/start.js",
+  "type": "module",
+  "bin": {
+    "metapress": "./src/start.mjs"
+  },
+  "scripts": {
+    "test": "node ./src/start.mjs --version"
+  },
+  "keywords": [
+    "metapress",
+    "cli",
+    "command",
+    "line",
+    "terminal",
+    "site",
+    "website",
+    "tool",
+    "tester"
+  ],
+  "author": "jjv360",
+  "license": "ISC",
+  "dependencies": {
+    "node-html-parser": "^6.1.12",
+    "ora": "^8.0.1",
+    "yargs": "^17.7.2"
+  }
+}

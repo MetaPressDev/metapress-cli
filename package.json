@@ -1,6 +1,6 @@
 {
   "name": "@metapress/cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Command-line tool to test MetaPress-enabled sites.",
   "main": "src/start.js",
   "type": "module",
@@ -23,6 +23,10 @@
   ],
   "author": "jjv360",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MetaPressDev/metapress-cli.git"
+  },
   "dependencies": {
     "node-html-parser": "^6.1.12",
     "ora": "^8.0.1",
